@@ -28,7 +28,9 @@ article {
 
 h1 {
   font-size: 2.618rem;
-  margin: 1em auto 1.618em;
+  margin: auto;
+  margin-top: .618em;
+  margin-bottom: 1em;
 }
 
 hr {
