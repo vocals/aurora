@@ -1,32 +1,63 @@
 ::selection {
-  background: #ee1;
-  color: darkviolet;
+  background: #e1e;
+  color: #111;
 }
 
 :root {
-  background-color: coral;
-  background-image: radial-gradient(plum, hotpink, violet, orchid, hotpink);
-  color: indigo;
+  background-color: orange;
+  background-image: linear-gradient(deepskyblue, dodgerblue, cornflowerblue, #e7f);
+  color: #111;
+}
+
+mark {
+  background-color: #e7f;
+  color: #111;
+}
+
+.ear {
+  background-image: linear-gradient(salmon, orange, coral);
+  color: #318;
+}
+
+.let {
+  background-image: linear-gradient(#7ed, #11dff1, turquoise);
+  color: #318;
+}
+
+.luv {
+  background-image: linear-gradient(darkmagenta, #318, purple);
+  color: orange;
+}
+
+.you {
+  background-image: linear-gradient(#e7f, orange, skyblue);
+  color: #318;
+}
+
+.daw {
+  background-image: linear-gradient(#11dff1, #7ed, springgreen);
+}
+
+:active {
+  filter: saturate(109%);
+}
+
+:target {
+  filter: saturate(161%);
+}
+
+.echo {
+  color: midnightblue;
+  text-shadow:
+    -1vw 1vh 0 #fab,
+    1vw -1vh 0 #e7f;
 }
 
 :any-link {
   color: indigo;
   background-color: transparent;
-  text-shadow:
-    2vw -3vh 1pc,
-    3vw 3vh 1pc,
-    5vw -3vh 1pc,
-    -2vw 3vh 3pc;
-}
-
-:focus {
-  background-color: blueviolet;
-  color: plum;
-  outline: 1rem groove indigo;
 }
 
 a:hover {
-  color: indigo;
-  background-color: skyblue;
+  background-color: mediumspringgreen;
 }
-
